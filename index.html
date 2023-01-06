@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -13,6 +13,10 @@
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
         <link href="css/styles.css" rel="stylesheet" />
         <!--aos movement-->
         <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css"/>
@@ -35,7 +39,7 @@
                         <li class="nav-item"><a class="nav-link" href="#Acercade">Acerca de mi</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Servicios">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Proyectos">Proyectos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-secondary" href="#Contacto">Contactame</a></li>
                     </ul>
                 </div>
             </div>
@@ -104,11 +108,14 @@
         <!--Acerca de mi-->
         <section id="Acercade" class="Acercade">
             <div class="container py-4 py-lg-5 px-4 px-lg-5">
+                <div class="section-title text-center pb-3">
+                    <h2 data-aos="zoom-in-down">SOBRE MÍ</h2>
+                </div>
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-xl-6 col-lg-7" data-aos="fade-right"> 
+                    <div class="col-xl-6 col-lg-7" data-aos="fade-right"  data-aos-offset="200"> 
                         <img src="assets/img/about-img.jpg" class="img-fluid rounded" alt="">
                     </div>
-                    <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0 row align-items-center">
+                    <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0  align-items-center">
                         <div class="icon-box" data-aos="fade-up"><h2 style="display: block;">Corporis voluptates sit</h2>
                             <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
                         </div>
@@ -195,56 +202,39 @@
                 <div class="section-title text-center">
                     <h2>Contacto</h2><h3><span>Contacto Us</span></h3><p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
                 </div>
-                <div class="row  " data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-6 text-center">
-                        <div class="info-box mb-4"> 
-                            <i class="bi bi-geo-alt" style="font-size: 2rem"></i><h3>Our Address</h3><p>A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="info-box mb-4"> 
-                            <i class="bi bi-envelope-at" style="font-size: 2rem"></i><h3>Email Us</h3><p>Contacto@example.com</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="info-box mb-4"> 
-                            <i class="bi bi-telephone" style="font-size: 2rem"></i><h3>Call Us</h3><p>+1 5589 55488 55</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row  pt-2" data-aos="fade-up" data-aos-delay="100">
+                <div class="row pt-5" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-6 "> 
-                        <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d702.9039747983373!2d-74.0419895495106!3d4.730879027183897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8556002832e7%3A0x2b02cac89fbcc07!2sCasa%20Alma%20Bogot%C3%A1!5e0!3m2!1sen!2sit!4v1672847909482!5m2!1sen!2sit" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen=""></iframe>
+                      <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d702.9039747983373!2d-74.0419895495106!3d4.730879027183897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8556002832e7%3A0x2b02cac89fbcc07!2sCasa%20Alma%20Bogot%C3%A1!5e0!3m2!1sen!2sit!4v1672847909482!5m2!1sen!2sit" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen=""></iframe>
                     </div>
-                    <div class="col-lg-6">
-                        <form action="forms/Contacto.php" method="post" role="form" class="php-email-form">
-                            <div class="row">
-                                <div class="col form-group"> 
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                                </div>
-                                <div class="col form-group">
-                                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                                    </div>
-                                </div>
-                                <div class="form-group"> 
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
-                                </div>
-                                <!--<div class="my-3">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                                </div>-->
-                                <div class="text-center">
-                                    <button type="submit">Send Message</button>
-                                </div>
-                            </form>
+                    <div class="col-lg-6">  
+                    <div class="row">
+                      <div class="col-lg-6 col-md-12 text-center">
+                          <div class="info-box mb-4"> 
+                              <i class="bi bi-geo-alt" style="font-size: 2rem"></i><h3>Our Address</h3><p>A108 Adam Street, New York, NY 535022</p>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-12 text-center">
+                          <div class="info-box mb-4"> 
+                              <i class="bi bi-telephone" style="font-size: 2rem"></i><h3>Call Us</h3><p>+1 5589 55488 55</p>
+                          </div>
+                      </div>
+                    </div>
+                      <div class="row pt-2">
+                        <div class="col-lg-6 col-md-12 text-center">
+                            <div class="info-box mb-lg-0"> 
+                                <a data-testid="linkElement" href="mailto:Contacto@example.com?subject=Solicitud de información" target="_self" class="kuTaGy" aria-disabled="false"><i class="bi bi-envelope-at" style="font-size: 2rem"></i><h3>Email Us</h3></a><p>Contacto@example.com</p>
+                            </div>
                         </div>
+                        <div class="col-lg-6 col-md-12 text-center">
+                            <div class="info-box mb-lg-0"> 
+                                <a href="https://wa.me/57313123123123?text=Me%20gustaría%20tener%20mas%20información" target="_blank"><i class="bi bi-whatsapp" style="font-size: 4rem"></i><h3>WhatsApp</h3></a>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
-            </section>
+                  </div>    
+            </div>
+        </section>
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
         <!-- Bootstrap core JS-->
@@ -264,5 +254,15 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/Contacto-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </script>
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script type="module">
+        import { Toast } from 'bootstrap.esm.min.js'
+  
+        Array.from(document.querySelectorAll('.toast'))
+          .forEach(toastNode => new Toast(toastNode))
+      </script>
+      <a href="https://wa.me/57313123123123?text=Me%20gustaría%20tener%20mas%20información" class="whatsapp" target="_blank"> <i class="bi bi-whatsapp"></i></a>
     </body>
 </html>
