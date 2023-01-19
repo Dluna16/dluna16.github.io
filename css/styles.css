@@ -5229,6 +5229,7 @@ textarea.form-control-lg {
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  font-size: 12px;
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -7959,7 +7960,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .text-reset {
@@ -11598,7 +11599,7 @@ body {
           background-clip: text;
 }
 .masthead h2, .masthead .h2 {
-  max-width: 20rem;
+  max-width: 50rem;
   font-size: 1rem;
 }
 @media (min-width: 768px) {
@@ -11634,7 +11635,7 @@ body {
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
-    max-width: 30rem;
+    max-width: 50rem;
     font-size: 1.25rem;
   }
 }
@@ -11696,14 +11697,14 @@ width: 100%;
   top: calc(50% - 30px);
 }
 .Servicios .icon i {
-  font-size: 64px;
+  font-size: 84px;
   line-height: 1;
   transition: 0.5s;
 }
 
 .Servicios .description {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 10px;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -11746,4 +11747,9 @@ width: 100%;
   color: #5F8575;
 }
 
-
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
