@@ -5229,7 +5229,7 @@ textarea.form-control-lg {
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  font-size: 12px;
+  font-size: 13px;
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -11688,12 +11688,11 @@ width: 100%;
 }
 .Servicios .icon-box:hover{
   box-shadow: 5px 6px 6px 2px #c7cbcf;
-  background: #b3cdc2;
 }
 .Servicios .icon {
   position: absolute;
-  left: -20px;
-  top: calc(50% - 30px);
+  left: calc(12%);
+  top: calc(30% - 30px);
 }
 .Servicios .icon i {
   font-size: 84px;
@@ -11752,3 +11751,14 @@ width: 100%;
   display: -ms-flexbox;
   display:         flex;
 }
+
+.Servicios h4 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+  color: #67c29c;
+}
+.wphov{text-decoration: none; color: #25d366;}
+.wphov:hover {color: #24cf63a6;}
