@@ -11552,7 +11552,7 @@ body {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #5590dd;
+    color: #000;
     outline: none;
     border-bottom: 0.25rem solid #5590dd;
   }
@@ -11692,7 +11692,7 @@ width: 100%;
 .Servicios .icon {
   position: absolute;
   left: calc(12%);
-  top: calc(30% - 30px);
+  top: calc(30%);
 }
 .Servicios .icon i {
   font-size: 84px;
