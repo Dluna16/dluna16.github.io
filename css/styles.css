@@ -11762,3 +11762,7 @@ width: 100%;
 }
 .wphov{text-decoration: none; color: #25d366;}
 .wphov:hover {color: #24cf63a6;}
+
+.mylogo1 {
+  display: none;
+}
