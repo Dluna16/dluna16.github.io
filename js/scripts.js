@@ -16,23 +16,19 @@ window.addEventListener('DOMContentLoaded', event => {
             return;
         }
         if (window.scrollY === 0) {
-            if (window.getComputedStyle(document.body.querySelector('.navbar-toggler')).display !== 'none') {
-                document.getElementById("myLogo1").style.display = "block"
-                document.getElementById("myLogo").style.display = "none"
-            }
-            else {
             document.getElementById("myLogo1").style.display = "none"
             document.getElementById("myLogo").style.display = "block"
-            }
+            navbarCollapsible.style.backgroundColor = "transparent"
             navbarCollapsible.classList.remove('navbar-shrink')
         } else {
             document.getElementById("myLogo1").style.display = "block"
             document.getElementById("myLogo").style.display = "none"
+            navbarCollapsible.style.backgroundColor = "#fff"
             navbarCollapsible.classList.add('navbar-shrink')
         }
 
     };
-
+    
     // Shrink the navbar 
     navbarShrink();
 

@@ -3063,13 +3063,13 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: transparent;
+  color: #fff !important;
+  background-color: #5590dd;
   border-color: grey;
 }
 .btn-secondary:hover {
-  color: #fff;
-  background-color: #9797a1;
+  color: #000 !important;
+  background-color: #5590dda9;
   border-color: white;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
@@ -3080,11 +3080,11 @@ textarea.form-control-lg {
 }
 .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #5d5081;
-  border-color: #574b79;
+  background-color: #5590dd;
+  border-color: #5590dd;
 }
 .btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(137, 123, 175, 0.5);
+  box-shadow: 0 0 0 0.25rem #5590dda9;
 }
 .btn-secondary:disabled, .btn-secondary.disabled {
   color: #fff;
@@ -4180,6 +4180,8 @@ textarea.form-control-lg {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  text-align: center;
+  font-weight: bold;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4194,7 +4196,9 @@ textarea.form-control-lg {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  background-color: #fff;
 }
+
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -4341,6 +4345,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
+  .navbar-collapse {
+    background-color: transparent;
+  }
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -11507,7 +11514,6 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11644,7 +11650,7 @@ body {
   padding: 5rem 0;
 }
 .Servicios{
-  background: linear-gradient(to left bottom, #c7c8b8 0%,#fff 20%, #fff 70%, #5F8575 100%)
+  background: linear-gradient(to left bottom, #fff 0%,#fff 20%, #fff 70%, #5F8575 100%)
 }
 .Enfoque{
   background: linear-gradient(to top, rgb(0 0 0 / 0%) 0%, #0a2a50e6 100%)
@@ -11691,8 +11697,8 @@ width: 100%;
 }
 .Servicios .icon {
   position: absolute;
-  left: calc(12%);
-  top: calc(30%);
+  left: calc(25%);
+  top: calc(40%);
 }
 .Servicios .icon i {
   font-size: 84px;
